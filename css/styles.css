@@ -1,0 +1,86 @@
+.container {
+  width: 1920px;
+  outline: auto;
+}
+
+.header .container {
+  display: flex;
+  padding-left: 170px;
+  padding-right: 213px;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.button-list {
+  display: flex;
+  align-items: center;
+  padding-top: 46px;
+  padding-bottom: 17px;
+}
+
+.button-list li:not(:last-child) {
+  margin-right: 72px;
+}
+
+.logo-wrapper {
+  position: relative;
+}
+
+.logo-text {
+  position: absolute;
+  bottom: 28px;
+  height: 53px;
+  width: 91px;
+  left: 75px;
+  margin-top: 59px;
+}
+
+.nav-list li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  display: block;
+  color: #163561;
+  font-size: 25px;
+  line-height: 1.34;
+  font-weight: 500;
+  padding: 67px 14px 8px 14px;
+}
+
+.nav-list a:hover {
+  background: #a3c1ef;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* .button-list {
+  display: flex;
+  align-items: center;
+  padding-top: 46px;
+  padding-bottom: 17px;
+}
+
+.button-list li:not(:last-child) {
+  margin-right: 72px;
+} */
+
+.button-list button {
+  border: none;
+  background-color: transparent;
+}
+
+.button-list .appointment {
+  background-color: #99baed;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  padding: 23, 33;
+  border-radius: 20px;
+  border: none;
+}
