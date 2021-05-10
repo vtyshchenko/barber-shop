@@ -15,7 +15,6 @@ body {
 .container {
   width: 1920px;
   margin: 0 auto;
-  outline: auto;
 }
 
 .header .container {
