@@ -202,10 +202,12 @@ body {
 
 .history-text-first {
   margin-bottom: 48px;
+  margin-right: 195px;
 }
 
 .history-text-second {
   margin-bottom: 108px;
+  margin-right: 195px;
 }
 
 .info-list-item:first-child {
@@ -236,8 +238,66 @@ body {
   border-radius: 20px;
   transition: all 0.5s ease-out;
 }
-
 /*********  END Hairstyle and History  *********/
+
+/*********  Services  *********/
+.services {
+  padding-bottom: 233px;
+}
+
+.services-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 390px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 82px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 250px;
+  margin-right: -49px;
+}
+
+.services-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 41px 72px 41px;
+  margin-right: 49px;
+  background-color: #fff;
+}
+
+.services-icon {
+  width: 103px;
+  height: 126px;
+  background: #e5ecfe;
+  box-shadow: 0px 1px 0px #008fdd;
+  border-radius: 13px;
+  padding: 30px 23px;
+}
+
+.hair-cut {
+  width: 65px;
+  height: 58px;
+}
+
+.beard-cut {
+  width: 103px;
+  height: 126px;
+  padding: 15px 3px;
+}
+
+.facial-pack {
+  width: 66px;
+  height: 66px;
+}
+/*********  END Services  *********/
 
 /*********  Gallery  *********/
 
