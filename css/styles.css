@@ -56,6 +56,11 @@ body {
 .container {
   width: 1920px;
   margin: 0 auto;
+  background-color: darkseagreen;
+}
+
+.second-color {
+  color: var(--text-color-secondary);
 }
 
 /*********  HAEDER  *********/
@@ -65,6 +70,7 @@ body {
   padding-left: 170px;
   padding-right: 213px;
   align-items: center;
+  padding-bottom: 49px;
 }
 
 .logo-wrapper {
@@ -136,7 +142,6 @@ body {
   padding: 23px 32px;
   border-radius: 20px;
   border: none;
-  color: #ffffff;
 }
 
 .button-list .appointment:hover {
@@ -150,3 +155,90 @@ body {
 }
 
 /*********  END HAEDER  *********/
+
+/*********  Hairstyle and History  *********/
+.hairstyle-and-history {
+  padding-bottom: 136px;
+}
+
+.info-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hairstyle-and-history-title {
+  font-family: Catamaran;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 1.34;
+
+  color: #163561;
+  width: 576px;
+  /* background-color: chartreuse; */
+  margin-top: 100px;
+}
+
+.hairstyle-title {
+  margin-bottom: 29px;
+}
+
+.history-title {
+  margin-bottom: 80px;
+}
+
+.hairstyle-and-history-text {
+  font-family: Catamaran;
+  font-size: 25px;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+  width: 530px;
+}
+
+.hairstyle-text {
+  margin-bottom: 97px;
+}
+
+.history-text-first {
+  margin-bottom: 48px;
+}
+
+.history-text-second {
+  margin-bottom: 108px;
+}
+
+.info-list-item:first-child {
+  margin-left: 188px;
+  margin-bottom: 226px;
+}
+
+.info-list-item:last-child {
+  flex-direction: row-reverse;
+  margin-left: 82px;
+}
+
+.buttons {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  padding: 23px 32px;
+  border-radius: 20px;
+  border: none;
+}
+
+.buttons:hover {
+  background: rgba(153, 186, 237, 0.5);
+  /* filter: blur(50px); */
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+}
+
+/*********  END Hairstyle and History  *********/
+
+/*********  Gallery  *********/
+
+/*********  END Gallery  *********/
