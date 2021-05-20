@@ -19,12 +19,12 @@
     <header class="header">
       <div class="container">
         <div class="logo-wrapper">
-          <img
-            class="logo-item"
-            src="./images/logo-scissors.svg"
-            alt="logo scissors"
-          />
-          <img class="logo-text" src="./images/logo-text.svg" alt="logo text" />
+          <svg class="logo-item">
+            <use href="./images/icons.svg#icon-logo-scissors"></use>
+          </svg>
+          <svg class="logo-text">
+            <use href="./images/icons.svg#icon-logo-text"></use>
+          </svg>
         </div>
         <nav>
           <ul class="nav-list">
@@ -37,12 +37,18 @@
         <ul class="button-list">
           <li>
             <button type="button">
-              <img src="./images/profile.svg" alt="" />
+              <svg class="header-icon">
+                <use href="./images/icons.svg#icon-profile"></use>
+              </svg>
+              <!-- <img src="./images/profile.svg" alt="" /> -->
             </button>
           </li>
           <li>
             <button type="button">
-              <img src="./images/notification.svg" alt="" />
+              <svg class="header-icon">
+                <use href="./images/icons.svg#icon-notification"></use>
+              </svg>
+              <!-- <img src="./images/notification.svg" alt="" /> -->
             </button>
           </li>
           <li>
@@ -55,7 +61,7 @@
       <h1>Our barber shop</h1>
       <section>
         <div>
-          <h2>Hairstyle ReflectsThe PersonalityInside You</h2>
+          <h2><span>Hairstyle</span> ReflectsThe PersonalityInside You</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page w hen looking at.
