@@ -157,9 +157,15 @@ body {
 /*********  END HAEDER  *********/
 
 /*********  Hairstyle and History  *********/
-.hairstyle-and-history {
-  padding-bottom: 136px;
-}
+/* .hero .hairstyle {
+  background-image: url("../images/hairstyle.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+} */
+
+/* .hairstyle-and-history {
+} */
 
 .info-list-item {
   display: flex;
@@ -175,7 +181,6 @@ body {
   color: #163561;
   width: 576px;
   /* background-color: chartreuse; */
-  margin-top: 100px;
 }
 
 .hairstyle-title {
@@ -211,13 +216,25 @@ body {
 }
 
 .info-list-item:first-child {
+  background-image: url("../images/hairstyle.jpg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
   margin-left: 188px;
-  margin-bottom: 226px;
+  padding-bottom: 179px;
+  padding-top: 100px;
 }
 
 .info-list-item:last-child {
+  background: url("../images/vector1.svg") left top,
+    url("../images/history.jpg") left center,
+    url("../images/vector2.svg") right top;
+  background-repeat: no-repeat;
   flex-direction: row-reverse;
-  margin-left: 82px;
+  /* margin-left: 82px; */
+  padding-top: 262px;
+  padding-bottom: 170px;
+  padding-left: 77px;
 }
 
 .buttons {
@@ -242,7 +259,11 @@ body {
 
 /*********  Services  *********/
 .services {
+  padding-top: 170px;
   padding-bottom: 233px;
+  background: url("../images/vector3.svg") left bottom,
+    url("../images/vector4.svg") right bottom;
+  background-repeat: no-repeat;
 }
 
 .services-title {
@@ -270,7 +291,32 @@ body {
   align-items: center;
   padding: 50px 41px 72px 41px;
   margin-right: 49px;
-  background-color: #fff;
+  /* background-color: #fff; */
+
+  background: #fafbff;
+  box-shadow: 0px 5px 0px #99baed;
+  border-radius: 29px;
+}
+
+.services-list-item:focus,
+.services-list-item:hover {
+  background: #99baed;
+  border-radius: 29px;
+  box-shadow: 0px 5px 0px #d5e5ff;
+}
+
+.services-list-item:focus .services-list-item-text,
+.services-list-item:hover .services-list-item-text,
+.services-list-item:focus .services-list-item-title,
+.services-list-item:hover .services-list-item-title {
+  color: #ffffff;
+  border-radius: 29px;
+}
+
+.services-list-item:focus .services-icon,
+.services-list-item:hover .services-icon {
+  background-color: var(--text-color-secondary);
+  fill: var(--text-color);
 }
 
 .services-icon {
@@ -280,6 +326,8 @@ body {
   box-shadow: 0px 1px 0px #008fdd;
   border-radius: 13px;
   padding: 30px 23px;
+  margin-bottom: 60px;
+  fill: #008fdd;
 }
 
 .hair-cut {
@@ -288,17 +336,71 @@ body {
 }
 
 .beard-cut {
-  width: 103px;
-  height: 126px;
-  padding: 15px 3px;
+  width: 68px;
+  height: 68px;
 }
 
 .facial-pack {
   width: 66px;
   height: 66px;
 }
+
+.services-list-item-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #163561;
+  margin-bottom: 60px;
+}
+
+.services-list-item-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.51;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+}
 /*********  END Services  *********/
 
 /*********  Gallery  *********/
+.galery {
+  padding-top: 40px;
+  padding-bottom: 171px;
+}
 
+.galery-title {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 390px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 110px;
+}
+
+.galery-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 270px;
+  padding-right: 270px;
+  margin-top: 0;
+  margin-right: -38px;
+  margin-bottom: -38px;
+}
+
+.galery-list-item {
+  width: calc((100% - 3 * 38px) / 3);
+  margin-right: 38px;
+  margin-bottom: 38px;
+}
+
+.galery-list-item img {
+  width: 100%;
+}
 /*********  END Gallery  *********/

@@ -59,9 +59,9 @@
       <h1 class="visually-hidden">Our barber shop</h1>
 
       <!-- Hairstyle and History -->
-      <section>
+      <section class="hero">
         <div class="container">
-          <ul class="hairstyle-and-history">
+          <ul class="hairstyle-and-history hairstyle">
             <li class="info-list-item">
               <div>
                 <h2 class="hairstyle-and-history-title hairstyle-title">
@@ -73,15 +73,15 @@
                   by the readable content of a page when looking at.
                 </p>
                 <button class="buttons" type="button">Get Started</button>
-              </div>
+              <!-- </div>
               <img
                 src="./images/hairstyle.jpg"
                 alt="hairstyle"
                 width="1132px"
                 height="821px"
-              />
+              /> -->
             </li>
-            <li class="info-list-item">
+            <li class="info-list-item history">
               <div>
                 <h2 class="hairstyle-and-history-title history-title">
                   Our <span class="second-color">History</span>
@@ -96,7 +96,7 @@
                 </p>
                 <button class="buttons" type="button">Learn more</button>
               </div>
-              <img src="./images/history.jpg" alt="history" />
+              <!-- <img src="./images/history.jpg" alt="history" /> -->
             </li>
           </ul>
         </div>
@@ -115,8 +115,8 @@
                   <use href="./images/icons.svg#icon-hair-cut"></use>
                 </svg>
               </div>
-              <h3>Hair Cut</h3>
-              <p>
+              <h3 class="services-list-item-title">Hair Cut</h3>
+              <p class="services-list-item-text">
                 long established fact that a reacted by the readable content of
                 hen looking at.
               </p>
@@ -127,8 +127,8 @@
                   <use href="./images/icons.svg#icon-beard-cut"></use>
                 </svg>
               </div>
-              <h3>Beard Cut</h3>
-              <p>
+              <h3 class="services-list-item-title">Beard Cut</h3>
+              <p class="services-list-item-text">
                 long established fact that a reacted by the readable content of
                 hen looking at.
               </p>
@@ -139,8 +139,8 @@
                   <use href="./images/icons.svg#icon-facial-pack"></use>
                 </svg>
               </div>
-              <h3>Facial Pack</h3>
-              <p>
+              <h3 class="services-list-item-title">Facial Pack</h3>
+              <p class="services-list-item-text">
                 long established fact that a reacted by the readable content of
                 hen looking at.
               </p>
@@ -151,17 +151,21 @@
 
       <!-- Gallery -->
       <section>
-        <div class="container">
-          <h2>Our <span>Gallery</span></h2>
-          <ul>
-            <li><img src="./images/galery01.jpg" alt="" /></li>
-            <li><img src="./images/galery02.jpg" alt="" /></li>
-            <li><img src="./images/galery03.jpg" alt="" /></li>
-            <li><img src="./images/galery04.jpg" alt="" /></li>
-            <li><img src="./images/galery05.jpg" alt="" /></li>
-            <li><img src="./images/galery06.jpg" alt="" /></li>
+        <div class="container galery">
+          <h2 class="galery-title">Our <span class="second-color">Gallery</span></h2>
+          <ul class="galery-list">
+            <li class="galery-list-item"><img src="./images/galery01.jpg" alt="" /></li>
+            <li class="galery-list-item"><img src="./images/galery02.jpg" alt="" /></li>
+            <li class="galery-list-item"><img src="./images/galery03.jpg" alt="" /></li>
+            <li class="galery-list-item"><img src="./images/galery04.jpg" alt="" /></li>
+            <li class="galery-list-item"><img src="./images/galery05.jpg" alt="" /></li>
+            <li class="galery-list-item"><img src="./images/galery06.jpg" alt="" /></li>
           </ul>
-          <a href="">View All</a>
+
+          <div>
+          <button class="buttons" type="button">View All</button>
+              </div>
+          <!-- <a href=""></a> -->
         </div>
       </section>
     </main>
