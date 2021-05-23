@@ -3,6 +3,7 @@
   --background-color-main: #fafbff;
   --text-color: #163561;
   --text-color-secondary: #fbb400;
+  --color-white: #ffffff;
 }
 
 h1,
@@ -56,7 +57,7 @@ body {
 .container {
   width: 1920px;
   margin: 0 auto;
-  background-color: darkseagreen;
+  /* background-color: darkseagreen; */
 }
 
 .second-color {
@@ -221,19 +222,18 @@ body {
   background-position-x: right;
   background-position-y: top;
   margin-left: 188px;
-  padding-bottom: 179px;
+  padding-bottom: 330px;
   padding-top: 100px;
 }
 
 .info-list-item:last-child {
-  background: url("../images/vector1.svg") left top,
+  background: url("../images/orig/vector1.svg") left top,
     url("../images/history.jpg") left center,
-    url("../images/vector2.svg") right top;
+    url("../images/orig/vector2.svg") right top;
   background-repeat: no-repeat;
   flex-direction: row-reverse;
-  /* margin-left: 82px; */
-  padding-top: 262px;
-  padding-bottom: 170px;
+  padding-top: 110px;
+  padding-bottom: 175px;
   padding-left: 77px;
 }
 
@@ -244,25 +244,24 @@ body {
   font-size: 20px;
   line-height: 1.51;
   letter-spacing: 0.03em;
-  padding: 23px 32px;
+  padding: 23px 41px;
   border-radius: 20px;
-  border: none;
 }
 
 .buttons:hover {
   background: rgba(153, 186, 237, 0.5);
-  /* filter: blur(50px); */
   border-radius: 20px;
   transition: all 0.5s ease-out;
+  box-shadow: 0 10px 50px var(--accent-color);
 }
 /*********  END Hairstyle and History  *********/
 
 /*********  Services  *********/
 .services {
-  padding-top: 170px;
+  padding-top: 175px;
   padding-bottom: 233px;
-  background: url("../images/vector3.svg") left bottom,
-    url("../images/vector4.svg") right bottom;
+  background: url("../images/orig/vector3.svg") left bottom,
+    url("../images/orig/vector4.svg") right bottom;
   background-repeat: no-repeat;
 }
 
@@ -368,8 +367,11 @@ body {
 
 /*********  Gallery  *********/
 .galery {
+  background: url("../images/orig/vector1.svg") left top,
+    url("../images/orig/vector2.svg") right top;
+  background-repeat: no-repeat;
   padding-top: 40px;
-  padding-bottom: 171px;
+  padding-bottom: 94px;
 }
 
 .galery-title {
@@ -391,7 +393,7 @@ body {
   padding-right: 270px;
   margin-top: 0;
   margin-right: -38px;
-  margin-bottom: -38px;
+  margin-bottom: 39px;
 }
 
 .galery-list-item {
@@ -403,4 +405,92 @@ body {
 .galery-list-item img {
   width: 100%;
 }
+
+.gallery-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 23px 56px;
+}
 /*********  END Gallery  *********/
+
+.footer {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: url("../images/orig/vector3.svg") left bottom,
+    url("../images/orig/vector4.svg") right bottom;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer-logo-text {
+  position: relative;
+  bottom: -7px;
+  height: 53px;
+  width: 91px;
+  left: -27px;
+  margin-top: 59px;
+}
+
+.footer-position {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.51;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #153461;
+  opacity: 0.65;
+  width: 526px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 47px;
+}
+
+.footer-contact-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 47px;
+}
+
+.footer-contact-list-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-contact-list-item-link {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #d3e5ff;
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  /* color: var(--color-white); */
+}
+
+.social-icon {
+  fill: var(--color-white);
+}
+.footer-contact-list-item-link:hover,
+.footer-contact-list-item-link:active {
+  background-color: #99baed;
+}
+
+.footer-decorate {
+  display: block;
+}
+
+.footer-decorate::after {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  border: 1px solid #99baed;
+  width: 1362px;
+  text-align: center;
+}
