@@ -222,17 +222,17 @@ body {
   background-position-x: right;
   background-position-y: top;
   margin-left: 188px;
-  padding-bottom: 330px;
+  padding-bottom: 75px;
   padding-top: 100px;
 }
 
 .info-list-item:last-child {
   background: url("../images/orig/vector1.svg") left top,
-    url("../images/history.jpg") left center,
+    url("../images/history.jpg") 77px 151px,
     url("../images/orig/vector2.svg") right top;
   background-repeat: no-repeat;
   flex-direction: row-reverse;
-  padding-top: 110px;
+  padding-top: 262px;
   padding-bottom: 175px;
   padding-left: 77px;
 }
@@ -491,6 +491,6 @@ body {
   margin-left: auto;
   content: "";
   border: 1px solid #99baed;
-  width: 1362px;
+  width: 1000px;
   text-align: center;
 }
