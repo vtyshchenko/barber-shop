@@ -397,6 +397,7 @@ body {
 }
 
 .galery-list-item {
+  position: relative;
   width: calc((100% - 3 * 38px) / 3);
   margin-right: 38px;
   margin-bottom: 38px;
@@ -404,6 +405,18 @@ body {
 
 .galery-list-item img {
   width: 100%;
+}
+
+.galery-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.galery-list-item:hover .galery-bg {
+  z-index: 1;
 }
 
 .gallery-button {
